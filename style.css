@@ -1,0 +1,121 @@
+body {
+    padding: 100px;
+}
+
+
+.Arni {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: solid 2px yellowgreen;
+    position: absolute;
+    top: 25%;
+    left: 100px;
+    background-image: url("img/ThreeCirclesPlain.svg.png");
+    }
+.Kid {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: solid 2px violet;
+    position: absolute;
+    top: 25%;
+    left: 400px;
+    background-image: url("img/ThreeCirclesPlain.svg.png");
+}
+.Cat {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: solid 2px gold;
+    position: absolute;
+    top: 25%;
+    right: 100px;
+    background-image: url("img/ThreeCirclesPlain.svg.png");
+}
+
+.AllAnimals {
+    display: inline-block;
+    width: 1000px;
+    border: dotted 1px;
+    height: 400px;
+    position: relative;
+
+}
+.imageArni {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 25%;
+    top: 10%;
+    background-image: url("img/12.jpg");
+    opacity: 0.85;
+}
+.imageKid {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 25%;
+    top: 10%;
+    background-image: url("img/45.jpg");
+    opacity: 0.85;
+}
+.imageCat {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 25%;
+    top: 10%;
+    background-image: url("img/76.jpg");
+    opacity: 0.85;
+}
+.textArni {
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+.textKid {
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    height: 35px;
+
+}
+.textCat {
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    margin: 0px;
+    padding: 0px;
+
+}
+p {
+    font-family: "Bauhaus 93";
+    font-size: 32px;
+    display: inline;
+}
+p.kid {
+    font-size: 12px;
+    display: inline;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+p.arni {
+    font-size: 12px;
+    display: inline;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+p.cat {
+    font-size: 12px;
+    display: inline;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
